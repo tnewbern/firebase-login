@@ -1,0 +1,25 @@
+{
+  "name": "firebase-login",
+  "version": "1.0.0",
+  "description": "Commandline utility for firebase instance login",
+  "author": "Tom Newbern <tnewbern@openanesthesia.org>",
+  "license": "ISC",
+  "homepage": "https://github.com/tnewbern/firebase-login#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnewbern/firebase-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tnewbern/firebase-login/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "firebase-login": "./bin/firebase-login.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "firebase": "^2.3.2",
+    "minimist": "^1.2.0",
+    "prompt": "^0.2.14"
+  }
+}
